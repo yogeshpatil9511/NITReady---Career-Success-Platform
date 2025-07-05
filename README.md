@@ -2,28 +2,22 @@
 
 # NITReady - Career Success Platform
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://nitready.netlify.app)
-[![React](https://img.shields.io/badge/React-18.3.1-blue)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-blue)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.1-blue)](https://tailwindcss.com/)
-
 A comprehensive platform for tech professionals to share interview experiences, preparation tips, and career insights. Built with modern web technologies and featuring real-time updates and OAuth authentication.
 
 ## 🚀 Live Demo
 
-Visit the live application: **[NITReady Platform](https://nitready.netlify.app)**
+Visit the live application: **[NITReady Platform]([https://nitready.netlify.app](https://celebrated-buttercream-9cc819.netlify.app))**
 
 ## 📋 Table of Contents
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Authentication](#authentication)
 - [Real-time Features](#real-time-features)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## ✨ Features
 
@@ -76,41 +70,6 @@ Visit the live application: **[NITReady Platform](https://nitready.netlify.app)*
 - **LocalStorage API** - Client-side data persistence
 - **Storage Events** - Cross-tab real-time synchronization
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn package manager
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/nitready.git
-   cd nitready
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open in browser**
-   ```
-   http://localhost:5173
-   ```
-
-### Build for Production
-
-```bash
-npm run build
-npm run preview
-```
 
 ## 📁 Project Structure
 
@@ -256,19 +215,7 @@ VITE_API_BASE_URL=your_api_base_url
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Design inspiration from Glassdoor and modern career platforms
-- Icons provided by [Lucide React](https://lucide.dev/)
-- Images from [Pexels](https://www.pexels.com/)
-- Built with [Vite](https://vitejs.dev/) and [React](https://reactjs.org/)
-
----
 
 **Built with ❤️ for the tech community**
 
-For questions or support, please open an issue or contact the development team.
+For questions or support, please open an issue or contact 
