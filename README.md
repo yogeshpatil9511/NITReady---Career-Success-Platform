@@ -6,8 +6,7 @@ A comprehensive platform for tech professionals to share interview experiences, 
 
 ## 🚀 Live Demo
 
-Visit the live application: **[NITReady Platform]([https://nitready.netlify.app](https://celebrated-buttercream-9cc819.netlify.app))**
-
+Visit the live application: [ https://celebrated-buttercream-9cc819.netlify.app ]
 ## 📋 Table of Contents
 
 - [Features](#features)
