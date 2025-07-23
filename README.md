@@ -124,24 +124,6 @@ Traditional authentication with:
 - Error handling
 - Loading states
 
-## ⚡ Real-time Features
-
-### Cross-tab Synchronization
-
-```typescript
-// Real-time service implementation
-class RealtimeService {
-  // Storage event listener for cross-tab updates
-  private static setupStorageListener() {
-    window.addEventListener('storage', (e) => {
-      if (e.key === 'nitready_posts' && e.newValue) {
-        // Update posts across all tabs
-        this.updatePosts(JSON.parse(e.newValue));
-      }
-    });
-  }
-}
-```
 
 ### Live Engagement Updates
 
@@ -156,30 +138,6 @@ class RealtimeService {
 
 The application is deployed on Netlify with automatic deployments:
 
-1. **Build Command**: `npm run build`
-2. **Publish Directory**: `dist`
-3. **Environment**: Node.js 18+
-
-### Manual Deployment
-
-```bash
-# Build the application
-npm run build
-
-# Deploy to your preferred hosting service
-# Upload the 'dist' folder contents
-```
-
-### Environment Variables
-
-For production OAuth:
-
-```env
-VITE_GOOGLE_CLIENT_ID=your_google_client_id
-VITE_GITHUB_CLIENT_ID=your_github_client_id
-VITE_API_BASE_URL=your_api_base_url
-```
-
 ## 🎯 Key Features for Recruiters
 
 ### Technical Highlights
@@ -191,28 +149,6 @@ VITE_API_BASE_URL=your_api_base_url
 - **Responsive Design**: Mobile-first approach with Tailwind CSS
 - **Performance Optimized**: Vite build system with code splitting
 
-### Code Quality
-
-- **ESLint Configuration**: Strict linting rules for code quality
-- **TypeScript Strict Mode**: Enhanced type checking
-- **Component Architecture**: Reusable, maintainable components
-- **Service Layer**: Separation of concerns with dedicated services
-- **Error Handling**: Comprehensive error boundaries and user feedback
-
-### Best Practices
-
-- **Accessibility**: ARIA labels and keyboard navigation
-- **Security**: CSRF protection with OAuth state parameters
-- **Performance**: Optimized bundle size and lazy loading
-- **Maintainability**: Clear project structure and documentation
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 
 **Built with ❤️ for the tech community**
